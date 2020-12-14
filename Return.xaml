@@ -1,0 +1,23 @@
+﻿<Page x:Class="LibraryManageSystem.Return"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryManageSystem"
+      mc:Ignorable="d" 
+       d:DesignHeight="650" d:DesignWidth="1000"
+      Title="Return">
+
+    <Grid>
+        <TextBox FontFamily="宋体" FontSize="20" x:Name="no1" IsEnabled="False" HorizontalAlignment="Left" Height="40" Margin="30,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
+        <TextBox FontFamily="宋体" FontSize="20" x:Name="no2" IsEnabled="False" HorizontalAlignment="Left" Height="40" Margin="30,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
+        <TextBox FontFamily="宋体" FontSize="20" x:Name="no3" IsEnabled="False" HorizontalAlignment="Left" Height="40" Margin="30,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
+
+        <Label IsEnabled="False" FontSize="15" Content="书目二：" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Height="37" Width="74"/>
+        <Label IsEnabled="False" FontSize="15" Content="书目三：" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top"/>
+        <Label IsEnabled="False" FontSize="15" Content="书目一：" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="80" Height="32"/>
+        <Button IsEnabled="True" x:Name="btn_no1" FontSize="20" Content="还书" HorizontalAlignment="Left" Margin="500,77,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="ReturnBook"/>
+        <Button IsEnabled="True" x:Name="btn_no2" FontSize="20" Content="还书" HorizontalAlignment="Left" Margin="500,235,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="ReturnBook"/>
+        <Button IsEnabled="True" x:Name="btn_no3" FontSize="20" Content="还书" HorizontalAlignment="Left" Margin="500,379,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="ReturnBook"/>
+    </Grid>
+</Page>
