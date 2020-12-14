@@ -1,0 +1,33 @@
+﻿<Page x:Class="LibraryManageSystem.UserMessage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryManageSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="UserMessage">
+
+    <Grid>
+        <TextBox TextChanged="TextChange"  x:Name="NickName" HorizontalAlignment="Left" Height="23" Margin="64,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox TextChanged="TextChange" x:Name="Age" HorizontalAlignment="Left" Height="23" Margin="64,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox TextChanged="TextChange" x:Name="College" HorizontalAlignment="Left" Height="23" Margin="64,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox TextChanged="TextChange" x:Name="Address" HorizontalAlignment="Left" Height="23" Margin="64,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBox TextChanged="TextChange" x:Name="Motto" HorizontalAlignment="Left" Height="23" Margin="64,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox TextChanged="TextChange" x:Name="Introduce"  HorizontalAlignment="Left" Height="167" Margin="401,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283"/>
+        <Label IsEnabled="False" Content="昵称" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top"/>
+        <Label IsEnabled="False" Content="年龄" HorizontalAlignment="Left" Margin="40,114,0,0" VerticalAlignment="Top"/>
+        <Label IsEnabled="False" Content="学院" HorizontalAlignment="Left" Margin="54,233,0,0" VerticalAlignment="Top"/>
+        <Label IsEnabled="False" Content="座右铭" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,429,0,0"/>
+        <Label IsEnabled="False" Content="地址" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="48,318,0,0"/>
+        <Label IsEnabled="False" Content="个人介绍" HorizontalAlignment="Left" Margin="384,318,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="头像" HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="133" Margin="551,43,0,0">
+            <Image  x:Name="Picture" HorizontalAlignment="Left" Height="108" Margin="10,10,0,0" VerticalAlignment="Top" Width="107"/>
+        </GroupBox>
+        <Button FontSize="15" x:Name="SelectPic" Content="修改图片" HorizontalAlignment="Left" Margin="616,244,0,0" VerticalAlignment="Top" Width="77" Height="32" Click="SelectPic_Click" />
+        <Button FontSize="15" x:Name="Change" Content="修改信息" HorizontalAlignment="Left" Margin="834,438,0,0" VerticalAlignment="Top" Width="93" Click="Change_Click" Height="45"/>
+        <Button FontSize="15" x:Name="Submit" Content="提交信息" HorizontalAlignment="Left" VerticalAlignment="Top" Width="93" Margin="834,518,0,0" Click="Submit_Click" Height="45"/>
+
+
+    </Grid>
+</Page>

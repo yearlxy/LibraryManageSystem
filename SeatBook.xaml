@@ -1,0 +1,42 @@
+﻿<Page x:Class="LibraryManageSystem.SeatBook"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryManageSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="SeatBook">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button FontSize="40" x:Name="G_1_1"  Grid.Column=  "0" Grid.Row="0" Content="座位1" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_1_2"  Grid.Column=  "1" Grid.Row="0" Content="座位2" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_1_3"  Grid.Column=  "2" Grid.Row="0" Content="座位3" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_1_4"  Grid.Column=  "3" Grid.Row="0" Content="座位4" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_1_5"  Grid.Column=  "4" Grid.Row="0" Content="座位5" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_2_1"  Grid.Column=  "0" Grid.Row="1" Content="座位6" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_2_2"  Grid.Column=  "1" Grid.Row="1" Content="座位7" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_2_3"  Grid.Column=  "2" Grid.Row="1" Content="座位8" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_2_4"  Grid.Column=  "3" Grid.Row="1" Content="座位9" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_2_5"  Grid.Column=  "4" Grid.Row="1" Content="座位10" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_3_1"  Grid.Column=  "0" Grid.Row="2" Content="座位11" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_3_2"  Grid.Column=  "1" Grid.Row="2" Content="座位12" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_3_3"  Grid.Column=  "2" Grid.Row="2" Content="座位13" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_3_4"  Grid.Column=  "3" Grid.Row="2" Content="座位14" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+        <Button FontSize="40"  x:Name="G_3_5"  Grid.Column=  "4" Grid.Row="2" Content="座位15" Click="Button_Click" MouseRightButtonDown="Cancel"/>
+
+    </Grid>
+</Page>

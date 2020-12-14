@@ -1,0 +1,19 @@
+﻿<Page x:Class="LibraryManageSystem.Onlineview"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryManageSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="Onlineview">
+
+    <Grid>
+        <Button x:Name="Open" FontSize="20" Content="打开书籍" Margin="773,468,113,136.6" Click="Open_Click"/>
+        <GroupBox Header="图书目录" HorizontalAlignment="Left" Height="248" Margin="598,40,0,0" VerticalAlignment="Top" Width="325">
+            <ListBox SelectionMode="Single" FontSize="20" FontFamily="宋体" x:Name="list1"  HorizontalAlignment="Left" Height="207" Margin="10,10,-35.2,0" VerticalAlignment="Top" Width="302"/>
+        </GroupBox>
+        <TextBox FontFamily="宋体" FontSize="20" VerticalScrollBarVisibility="Visible" x:Name="text" HorizontalAlignment="Left" Height="444" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" Margin="65,55,0,0"/>
+
+    </Grid>
+</Page>
